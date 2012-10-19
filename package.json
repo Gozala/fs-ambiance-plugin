@@ -1,0 +1,35 @@
+{
+  "name": "fs-ambiance-plugin",
+  "id": "fs-ambiance-plugin",
+  "version": "0.0.1",
+  "description": "Filesystem plugin for ambiance editor",
+  "keywords": [ "fs-ambiance-plugin", "ambiance", "plugin", "filesystem" ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/fs-ambiance-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/fs-ambiance-plugin.git",
+    "web": "https://github.com/Gozala/fs-ambiance-plugin"
+  },
+  "bugs": {
+    "url": "http://github.com/Gozala/fs-ambiance-plugin/issues/"
+  },
+  "dependencies": {
+    "match-score": "0.0.1",
+    "pattern-exp": ">=0.0.2",
+    "micro-promise": "*"
+  },
+  "devDependencies": {
+    "test": ">=0.4.4",
+    "repl-utils": ">=1.0.0"
+  },
+  "main": "./fs.js",
+  "scripts": {
+    "test": "node test/test-all.js",
+    "repl": "node node_modules/repl-utils"
+  },
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "https://github.com/Gozala/fs-ambiance-plugin/License.md"
+  }]
+}
